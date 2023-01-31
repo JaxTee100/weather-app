@@ -31,9 +31,7 @@ const App = () => {
     })
     .catch((err) => console.log(err))
   }
-  console.log("current weather",currentWeather)
-  console.log("forecast",forecast)
-
+ 
   return(
     <div className='container'>
       <Search 
